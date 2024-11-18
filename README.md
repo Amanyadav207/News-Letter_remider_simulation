@@ -44,5 +44,25 @@ The primary objective of this project is to create a user-friendly interface tha
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd newsletter-renewal-flow
+   git clone https://github.com/Amanyadav207/News-Letter_remider_simulation
+   cd News-Letter_remider_simulation
+
+2. Install dependencies:
+    ```bash 
+    npm install
+
+3. Start the development server:
+    ```bash
+    npm run dev
+
+## Simulation Details
+- Waiting Periods:
+  - First waiting period: 3 seconds (simulating 3 days)
+  - Second waiting period: 2 seconds (simulating 2 days)
+- Randomized Outcomes:
+  - Renewal status is randomly generated at each check (Math.random()).
+
+## Assumptions
+1. No actual emails are sent; the process is simulated.
+2. Time delays represent waiting periods for simplicity.
+3. Logs are stored in memory and reset when the flow restarts.
